@@ -31,7 +31,7 @@
   </tr>
   <tr>
     <td><img src="assets/dashboard.jpg" alt="DrionTune Dashboard" width="300" /></td>
-    <td><img src="assets/launcher.jpg" alt="DrionTune Game Launcher" width="300" /></td>
+    <td><img src="assets/launcher1.jpg" alt="DrionTune Game Launcher" width="300" /></td>
   </tr>
 </table>
 
