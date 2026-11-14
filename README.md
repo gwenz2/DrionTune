@@ -39,6 +39,10 @@
 
 ## <img src="assets/icons/cpu.svg" width="18" height="18" align="absmiddle" /> Why Other "Lag Fixers" Fail
 
+<p align="center">
+  <img src="assets/comparison.svg" alt="Play Store Boosters vs Root Tweaks vs DrionTune" width="100%" />
+</p>
+
 Play Store booster apps play a rocket animation and close apps that Android restarts 5 seconds later, burning more battery and RAM.
 
 DrionTune uses Android's own system commands through Shizuku to actually **suspend** selected background apps (`0%` CPU, `0 MB` RAM) until you tap **Restore All Apps**. When you switch into your game, DrionTune stops polling telemetry so it does not eat CPU either.

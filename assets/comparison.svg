@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="Play Store Boosters vs Root Tweaks vs DrionTune">
+  <rect width="960" height="420" rx="16" fill="#0C0E14"/>
+  <text x="480" y="54" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#F9FAFB">
+    Play Store Boosters vs Root Tweaks vs DrionTune
+  </text>
+
+  <!-- Card 1: Play Store Boosters -->
+  <rect x="36" y="88" width="276" height="296" rx="12" fill="#161A24" stroke="#232938" stroke-width="1.5"/>
+  <text x="174" y="130" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#EF4444">Play Store Boosters</text>
+  <text x="174" y="156" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#9CA3AF">Fake 1-Tap Cleaners</text>
+  <line x1="60" y1="176" x2="288" y2="176" stroke="#232938" stroke-width="1"/>
+  <text x="60" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#D1D5DB">&#x2022; Rocket animation only</text>
+  <text x="60" y="244" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#D1D5DB">&#x2022; Apps restart in 5 sec</text>
+  <text x="60" y="278" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#D1D5DB">&#x2022; Runs ads in background</text>
+  <text x="60" y="312" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#D1D5DB">&#x2022; Wastes extra battery</text>
+
+  <!-- Card 2: Root Tweaks -->
+  <rect x="342" y="88" width="276" height="296" rx="12" fill="#161A24" stroke="#232938" stroke-width="1.5"/>
+  <text x="480" y="130" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#F59E0B">Root / Custom ROM</text>
+  <text x="480" y="156" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#9CA3AF">High Risk &amp; Complex</text>
+  <line x1="366" y1="176" x2="594" y2="176" stroke="#232938" stroke-width="1"/>
+  <text x="366" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#D1D5DB">&#x2022; Unlocks bootloader</text>
+  <text x="366" y="244" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#D1D5DB">&#x2022; Voids warranty / Knox</text>
+  <text x="366" y="278" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#D1D5DB">&#x2022; Breaks banking apps</text>
+  <text x="366" y="312" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#D1D5DB">&#x2022; Risk of bootloop</text>
+
+  <!-- Card 3: DrionTune -->
+  <rect x="648" y="88" width="276" height="296" rx="12" fill="#161A24" stroke="#10B981" stroke-width="2"/>
+  <text x="786" y="130" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#10B981">DrionTune</text>
+  <text x="786" y="156" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#38BDF8">Real System Control (Shizuku)</text>
+  <line x1="672" y1="176" x2="900" y2="176" stroke="#232938" stroke-width="1"/>
+  <text x="672" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#F9FAFB">&#x2022; No root, warranty safe</text>
+  <text x="672" y="244" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#F9FAFB">&#x2022; True 0% CPU/RAM freeze</text>
+  <text x="672" y="278" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#F9FAFB">&#x2022; Zero background drain</text>
+  <text x="672" y="312" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#F9FAFB">&#x2022; 1-tap Restore All Apps</text>
+</svg>
