@@ -72,3 +72,19 @@ DrionTune uses Android's own system commands through Shizuku to actually **suspe
 1. Install **Shizuku** from Google Play and start it via Wireless Debugging in Developer Options.
 2. Install **DrionTune** (`app-release.apk`) and tap Allow when Shizuku asks for permission.
 3. Open the menu and tap **Check for Updates** whenever a new version drops to download and install in place.
+
+---
+
+## FAQ
+
+**Does DrionTune require root?**
+No. DrionTune uses Shizuku over Wireless Debugging, so your bootloader stays locked and your warranty stays intact.
+
+**Why does DrionTune need Shizuku?**
+Android blocks normal apps from suspending other apps or running system tuning commands. Shizuku grants that access safely without root.
+
+**Will it break banking apps?**
+No. DrionTune does not root your phone. If you freeze a banking app before gaming, tap Restore All Apps afterward to unfreeze it and receive notifications again.
+
+**How do I update DrionTune?**
+Open the side menu and tap Check for Updates. It downloads the latest signed APK from GitHub Releases and opens Android's installer without wiping your settings or Pro key.
