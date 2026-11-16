@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DrionTune — Android Performance Suite (No Root)</title>
+  <meta name="description" content="Freeze background apps, trim system bloat, and tune Android performance via Shizuku. No root, no PC required." />
+  <meta name="appbuildersph-verification" content="9spze9i30upgais4jgy0nlxdtaiqwlvo" />
+  <link rel="icon" href="assets/icon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <div class="container nav">
+      <a href="#top" class="brand">
+        <img src="assets/icon.png" alt="DrionTune icon" width="28" height="28" />
+        <span>DrionTune</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://github.com/gwenz2/DrionTune" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+      <a class="btn btn-primary" href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.0.apk">Download APK</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="status-pill">
+            <span class="live-dot" aria-hidden="true"></span>
+            <span>v1.1.0 · Shizuku Powered · No Root</span>
+          </div>
+          <h1>Stop background lag.<br />Keep your warranty.</h1>
+          <p class="lead">
+            DrionTune gives you root-level Android control through Shizuku. Freeze memory-hogging apps,
+            trim system bloat, and monitor live CPU, RAM, ZRAM, and battery thermals—right on your phone.
+          </p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.0.apk">
+              Download v1.1.0 APK
+            </a>
+            <a class="btn btn-secondary" href="https://github.com/gwenz2/DrionTune" target="_blank" rel="noopener">
+              View on GitHub
+            </a>
+          </div>
+          <dl class="facts-row">
+            <div>
+              <dt>Requirement</dt>
+              <dd>Android 11+ &amp; Shizuku</dd>
+            </div>
+            <div>
+              <dt>Root Access</dt>
+              <dd>Not Required</dd>
+            </div>
+            <div>
+              <dt>Pro License</dt>
+              <dd>$3 One-Time</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-media">
+          <div class="device-frame">
+            <img src="assets/dashboard.jpg" alt="DrionTune Dashboard showing live CPU, RAM, ZRAM, temperature, and 1-Click Fix Lag" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alternating Feature Rows -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">01 / FEATURES</span>
+          <h2>Built for phones that actually run games.</h2>
+          <p>Four focused tools. Zero background daemon draining your battery.</p>
+        </div>
+
+        <div class="feature-row">
+          <div class="feature-text">
+            <span class="mono-tag">DASHBOARD</span>
+            <h3>Live telemetry &amp; 1-Click Fix Lag.</h3>
+            <p>
+              Watch combined CPU load, physical RAM, compressed ZRAM swap, and battery temperature in real time.
+              Tap <strong>1-Click Fix Lag</strong> to trim caches and kill background hogs before a match.
+            </p>
+          </div>
+          <div class="feature-visual">
+            <div class="device-frame compact">
+              <img src="assets/dashboard.jpg" alt="DrionTune Dashboard live telemetry" loading="lazy" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-row reverse">
+          <div class="feature-text">
+            <span class="mono-tag">GAME LAUNCHER</span>
+            <h3>Freeze background apps to 0 RAM &amp; 0 CPU.</h3>
+            <p>
+              Pick your game, select background apps to suspend, and launch. DrionTune enables performance mode,
+              whitelists your game from battery saver, and restores frozen apps when you're done.
+            </p>
+          </div>
+          <div class="feature-visual">
+            <div class="device-frame compact">
+              <img src="assets/launcher1.jpg" alt="DrionTune Game Launcher and app freezer" loading="lazy" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-row">
+          <div class="feature-text">
+            <span class="mono-tag">DEBLOATER · PRO</span>
+            <h3>Remove carrier &amp; OEM bloatware safely.</h3>
+            <p>
+              Disable or uninstall pre-installed system packages per-user without touching the system partition.
+              Every change is reversible—no unlocked bootloader or ADB cable needed.
+            </p>
+          </div>
+          <div class="feature-visual">
+            <div class="device-frame compact">
+              <img src="assets/debloat.jpg" alt="DrionTune Safe System Debloater" loading="lazy" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-row reverse">
+          <div class="feature-text">
+            <span class="mono-tag">TWEAKS · PRO</span>
+            <h3>Deep system tweaks &amp; gaming modes.</h3>
+            <p>
+              Lock fixed performance clocks, disable GPU-taxing window blurs, stop ping spikes with stable network mode, 
+              disable Samsung GOS throttling, adjust Samsung RAM Plus swap, and bypass thermal limits when an active phone cooler is attached.
+            </p>
+          </div>
+          <div class="feature-visual">
+            <div class="device-frame compact">
+              <img src="assets/tweaks.jpg" alt="DrionTune Deep System Tweaks" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why DrionTune 2x2 Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">02 / ARCHITECTURE</span>
+          <h2>What matters when you actually use it.</h2>
+        </div>
+        <div class="grid-2x2">
+          <article class="panel-card">
+            <span class="mono-tag">01</span>
+            <h3>No Root, No Knox Trip</h3>
+            <p>Runs over Shizuku's wireless ADB bridge. Banking apps, Play Integrity, and OTA updates stay intact.</p>
+          </article>
+          <article class="panel-card">
+            <span class="mono-tag">02</span>
+            <h3>Zero Background Drain</h3>
+            <p>No persistent accessibility service or fake "RAM booster" notification eating CPU in the background.</p>
+          </article>
+          <article class="panel-card">
+            <span class="mono-tag">03</span>
+            <h3>Signed &amp; Verifiable</h3>
+            <p>Built with R8 minification, signed release APKs, and an in-app updater pointing straight to GitHub Releases.</p>
+          </article>
+          <article class="panel-card">
+            <span class="mono-tag">04</span>
+            <h3>Tested on Real Hardware</h3>
+            <p>Verified on Samsung, Xiaomi, and stock Android devices running Android 11 through Android 16.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">03 / PRICING</span>
+          <h2>Free core. $3 Pro forever.</h2>
+          <p>No subscriptions. Pay once via Gumroad to unlock everything.</p>
+        </div>
+        <div class="pricing-grid">
+          <div class="panel-card pricing-card">
+            <div class="pricing-top">
+              <span class="mono-tag">FREE</span>
+              <div class="price">$0</div>
+              <p>Everything you need for daily lag fixes and gaming.</p>
+            </div>
+            <ul class="check-list">
+              <li>Live CPU, RAM, ZRAM &amp; Thermal Dashboard</li>
+              <li>1-Click Fix Lag &amp; Process Killer</li>
+              <li>Game Launcher &amp; Background App Freezer</li>
+              <li>30-minute Tweaks trial (rewarded ad)</li>
+            </ul>
+            <a class="btn btn-secondary full" href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.0.apk">Download Free APK</a>
+          </div>
+
+          <div class="panel-card pricing-card featured">
+            <div class="pricing-top">
+              <div class="pro-head">
+                <span class="mono-tag">PRO</span>
+                <span class="live-badge"><span class="live-dot"></span>One-Time</span>
+              </div>
+              <div class="price">$3</div>
+              <p>Full system control with zero ads.</p>
+            </div>
+            <ul class="check-list">
+              <li>Everything in Free</li>
+              <li>Safe System Debloater (disable &amp; restore)</li>
+              <li>Permanent Performance Tweaks</li>
+              <li>100% Ad-Free Experience</li>
+            </ul>
+            <a class="btn btn-primary full" href="https://gwennydev.gumroad.com/l/driontune-pro" target="_blank" rel="noopener">Get Pro on Gumroad</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container faq-layout">
+        <div class="faq-intro">
+          <span class="eyebrow">04 / FAQ</span>
+          <h2>Your questions, answered.</h2>
+          <p>Quick answers on Shizuku, safety, and Pro licensing.</p>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary><span class="faq-num">01</span>What is Shizuku and why does DrionTune need it?</summary>
+            <p>Shizuku lets apps run ADB-level system commands directly on your phone without root. You pair it once via Wireless Debugging in Developer Options.</p>
+          </details>
+          <details>
+            <summary><span class="faq-num">02</span>Can Debloater brick my phone?</summary>
+            <p>DrionTune only uninstalls packages for user 0 (<code>pm uninstall --user 0</code>), leaving the system partition untouched. You can restore any disabled package in one tap.</p>
+          </details>
+          <details>
+            <summary><span class="faq-num">03</span>How does the $3 Pro license work?</summary>
+            <p>Purchase once on Gumroad to receive a license key. Paste it inside DrionTune's Pro dialog to permanently unlock Debloater, Tweaks, and ad-free mode.</p>
+          </details>
+          <details>
+            <summary><span class="faq-num">04</span>How do updates work?</summary>
+            <p>DrionTune checks GitHub Releases directly from the side menu and installs signed APK updates in-app.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing CTA -->
+    <section class="closing">
+      <div class="container closing-box">
+        <h2>Ready for smoother frames?</h2>
+        <p>Install DrionTune v1.1.0 and pair Shizuku in under two minutes.</p>
+        <div class="actions center">
+          <a class="btn btn-primary" href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.0.apk">Download v1.1.0 APK</a>
+          <a class="btn btn-secondary" href="https://github.com/gwenz2/DrionTune" target="_blank" rel="noopener">GitHub Repo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <img src="assets/icon.png" alt="DrionTune icon" width="22" height="22" />
+        <span>DrionTune</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/gwenz2/DrionTune" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/gwenz2/DrionTune/releases" target="_blank" rel="noopener">Releases</a>
+        <a href="https://gwennydev.gumroad.com/l/driontune-pro" target="_blank" rel="noopener">Gumroad Pro</a>
+        <a href="mailto:gwenny252@gmail.com">Support</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
