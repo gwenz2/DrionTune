@@ -8,13 +8,13 @@
     <img src="https://img.shields.io/badge/Android-8.0%2B-10b981?style=flat-square&logo=android&logoColor=white" alt="Android 8.0+" />
     <img src="https://img.shields.io/badge/Root-Not%20Required-38bdf8?style=flat-square" alt="No Root Required" />
     <img src="https://img.shields.io/badge/Requires-Shizuku-6366f1?style=flat-square" alt="Requires Shizuku" />
-    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.0.0/DrionTune-v1.0.0.apk">
-      <img src="https://img.shields.io/badge/Download-APK%20v1.0.0-10b981?style=flat-square" alt="Download APK" />
+    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.0/DrionTune-v1.1.0.apk">
+      <img src="https://img.shields.io/badge/Download-APK%20v1.1.0-0ea5e9?style=flat-square" alt="Download APK" />
     </a>
   </p>
 
   <p>
-    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.0.0/DrionTune-v1.0.0.apk"><strong>Download DrionTune v1.0.0 (APK)</strong></a>
+    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.0/DrionTune-v1.1.0.apk"><strong>Download DrionTune v1.1.0 (APK)</strong></a>
     &nbsp;|&nbsp;
     Requires free <a href="https://shizuku.rikka.app/">Shizuku</a> app
   </p>
@@ -28,10 +28,14 @@
   <tr>
     <td align="center"><strong>Live CPU, RAM, ZRAM & 1-Click Fix</strong></td>
     <td align="center"><strong>Real App Freezer & Game Launcher</strong></td>
+    <td align="center"><strong>Safe System Debloater</strong></td>
+    <td align="center"><strong>Deep System Tweaks</strong></td>
   </tr>
   <tr>
-    <td><img src="assets/dashboard.jpg" alt="DrionTune Dashboard" width="300" /></td>
-    <td><img src="assets/launcher1.jpg" alt="DrionTune Game Launcher" width="300" /></td>
+    <td><img src="assets/dashboard.jpg" alt="DrionTune Dashboard" width="220" /></td>
+    <td><img src="assets/launcher1.jpg" alt="DrionTune Game Launcher" width="220" /></td>
+    <td><img src="assets/debloat.jpg" alt="DrionTune Debloater" width="220" /></td>
+    <td><img src="assets/tweaks.jpg" alt="DrionTune Tweaks" width="220" /></td>
   </tr>
 </table>
 
