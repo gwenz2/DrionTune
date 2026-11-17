@@ -8,13 +8,13 @@
     <img src="https://img.shields.io/badge/Android-8.0%2B-10b981?style=flat-square&logo=android&logoColor=white" alt="Android 8.0+" />
     <img src="https://img.shields.io/badge/Root-Not%20Required-38bdf8?style=flat-square" alt="No Root Required" />
     <img src="https://img.shields.io/badge/Requires-Shizuku-6366f1?style=flat-square" alt="Requires Shizuku" />
-    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.0/DrionTune-v1.1.0.apk">
-      <img src="https://img.shields.io/badge/Download-APK%20v1.1.0-0ea5e9?style=flat-square" alt="Download APK" />
+    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.1/DrionTune-v1.1.1.apk">
+      <img src="https://img.shields.io/badge/Download-APK%20v1.1.1-0ea5e9?style=flat-square" alt="Download APK" />
     </a>
   </p>
 
   <p>
-    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.0/DrionTune-v1.1.0.apk"><strong>Download DrionTune v1.1.0 (APK)</strong></a>
+    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.1/DrionTune-v1.1.1.apk"><strong>Download DrionTune v1.1.1 (APK)</strong></a>
     &nbsp;|&nbsp;
     Requires free <a href="https://shizuku.rikka.app/">Shizuku</a> app
   </p>
