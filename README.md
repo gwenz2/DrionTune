@@ -8,13 +8,13 @@
     <img src="https://img.shields.io/badge/Android-8.0%2B-10b981?style=flat-square&logo=android&logoColor=white" alt="Android 8.0+" />
     <img src="https://img.shields.io/badge/Root-Not%20Required-38bdf8?style=flat-square" alt="No Root Required" />
     <img src="https://img.shields.io/badge/Requires-Shizuku-6366f1?style=flat-square" alt="Requires Shizuku" />
-    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.2/DrionTune-v1.1.2.apk">
-      <img src="https://img.shields.io/badge/Download-APK%20v1.1.2-0ea5e9?style=flat-square" alt="Download APK" />
+    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.3/DrionTune-v1.1.3.apk">
+      <img src="https://img.shields.io/badge/Download-APK%20v1.1.3-0ea5e9?style=flat-square" alt="Download APK" />
     </a>
   </p>
 
   <p>
-    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.2/DrionTune-v1.1.2.apk"><strong>Download DrionTune v1.1.2 (APK)</strong></a>
+    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.3/DrionTune-v1.1.3.apk"><strong>Download DrionTune v1.1.3 (APK)</strong></a>
     &nbsp;|&nbsp;
     Requires free <a href="https://shizuku.rikka.app/">Shizuku</a> app
   </p>
@@ -67,7 +67,7 @@ DrionTune uses Android's own system commands through Shizuku to actually **suspe
 - **Frozen apps stay silent:** While an app is frozen for gaming, it will not send notifications until you tap Restore All Apps.
 - **Hardware limits:** Freeing RAM and cooling thermals reduces stutter, though it cannot turn an old processor into a flagship chip.
 - **Use at your own risk:** Tested on 3 phones. Because DrionTune uses Shizuku system privileges, disabling critical system apps or applying unsafe tweaks can break apps or cause missed notifications. The developer is not responsible for issues from misuse.
-- **Free vs Pro:** Dashboard, 1-Click Fix Lag, and Game Launcher are free with ads, plus a 30-minute System Tweaks trial via rewarded ad. Pro ($3 one-time on [Gumroad](https://gwennydev.gumroad.com/l/driontune-pro)) unlocks Debloater, permanent System Tweaks, and removes all ads.
+- **Free vs Pro:** Dashboard, 1-Click Fix Lag, and Game Launcher are free with ads, plus a 30-minute System Tweaks trial via rewarded ad. Pro ($1.99 one-time on [Gumroad](https://gwennydev.gumroad.com/l/driontune-pro)) unlocks Debloater, permanent System Tweaks, and removes all ads.
 
 ---
 
