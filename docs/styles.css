@@ -179,6 +179,20 @@ h1 {
 .device-frame img { border-radius: 12px; }
 .device-frame.compact { max-width: 280px; }
 
+.comparison-frame {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 12px;
+  background: var(--dp-color-panel);
+  border: 1px solid var(--dp-color-hairline);
+  border-radius: var(--dp-radius-panel);
+}
+.comparison-frame img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
 /* Sections */
 .section {
   padding: 88px 0;
