@@ -400,6 +400,19 @@ h3 {
   font-family: var(--dp-typography-mono);
   color: var(--dp-color-bright);
 }
+.code-block {
+  margin: 10px 0;
+  padding: 10px 14px;
+  background: var(--dp-color-hairline);
+  border: 1px solid var(--dp-color-hairline-2);
+  border-radius: var(--dp-radius-panel);
+  font-family: var(--dp-typography-mono);
+  font-size: 13px;
+  color: var(--dp-color-bright);
+  overflow-x: auto;
+  user-select: all;
+  word-break: break-all;
+}
 .inline-link {
   color: var(--dp-color-bright);
   text-decoration: underline;

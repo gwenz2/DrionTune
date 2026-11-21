@@ -21,6 +21,7 @@
       <nav class="nav-links" aria-label="Primary">
         <a href="index.html#features">Features</a>
         <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#pc">PC Edition</a>
         <a href="guide.html" aria-current="page">Setup Guide</a>
         <a href="https://github.com/gwenz2/DrionTune" target="_blank" rel="noopener">GitHub</a>
       </nav>
@@ -31,14 +32,16 @@
   <main>
     <section class="guide-hero">
       <div class="container">
-        <span class="eyebrow">SETUP GUIDE · NO ROOT / NO PC</span>
-        <h1>Set up Shizuku &amp; fix Step 3.</h1>
+        <span class="eyebrow">SETUP GUIDE · ANDROID &amp; PC</span>
+        <h1>Set up Shizuku &amp; DrionTune PC.</h1>
         <p class="lead">
-          DrionTune uses Shizuku to run system-level commands without root. Follow the 3 steps below, or jump straight to your phone brand if Step 3 gets stuck on <strong>Pending</strong>.
+          DrionTune gives you deep Android optimization without root. Follow the steps below for phone wireless setup, use the <strong>Windows PC Edition</strong> (no Shizuku needed), or start Shizuku over ADB.
         </p>
         <div class="actions">
-          <a class="btn btn-primary" href="#brand-fixes">Fix Step 3 by Brand</a>
-          <a class="btn btn-secondary" href="#steps">3-Step Setup</a>
+          <a class="btn btn-primary" href="#steps">Wireless Setup</a>
+          <a class="btn btn-secondary" href="#pc-guide">PC Edition (Windows)</a>
+          <a class="btn btn-secondary" href="#pc-adb">Start Shizuku via PC</a>
+          <a class="btn btn-secondary" href="#brand-fixes">Brand Fixes</a>
         </div>
       </div>
     </section>
@@ -46,7 +49,7 @@
     <section id="steps" class="section">
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">01 / FIRST-TIME SETUP</span>
+          <span class="eyebrow">01 / FIRST-TIME SETUP (WIRELESS)</span>
           <h2>Three steps. Takes under 2 minutes.</h2>
           <p>Requires Android 11 or newer and an active Wi-Fi connection during pairing.</p>
         </div>
@@ -85,10 +88,104 @@
       </div>
     </section>
 
+    <!-- PC Edition (Windows) -->
+    <section id="pc-guide" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">02 / PC EDITION SETUP</span>
+          <h2>DrionTune for PC (Windows Portable).</h2>
+          <p>
+            Stuck on Shizuku or prefer a desktop workflow? DrionTune PC is a portable Windows tool with bundled ADB. It connects directly over USB or Wi-Fi to monitor, debloat, freeze background apps, and tune your device without installing Shizuku on your phone.
+          </p>
+        </div>
+
+        <div class="guide-steps">
+          <article class="panel-card">
+            <span class="mono-tag">STEP 01</span>
+            <h3>Enable USB Debugging</h3>
+            <ol class="step-list">
+              <li>Open <strong>Settings → About Phone</strong> and tap <strong>Build Number</strong> 7 times to unlock Developer Options.</li>
+              <li>Open <strong>Developer Options</strong> and toggle <strong>USB Debugging</strong> ON.</li>
+              <li>(Xiaomi / POCO: also enable <strong>USB debugging (Security settings)</strong>).</li>
+            </ol>
+          </article>
+
+          <article class="panel-card">
+            <span class="mono-tag">STEP 02</span>
+            <h3>Connect via USB or Wi-Fi</h3>
+            <ol class="step-list">
+              <li><strong>USB Cable:</strong> Plug your phone into your PC. On your phone screen, check <strong>Always allow from this computer</strong> and tap <strong>Allow</strong>.</li>
+              <li><strong>Wireless (Wi-Fi):</strong> Or click <strong>📶 Wireless Connect</strong> in the app to pair with Android 11+ pairing code over Wi-Fi without a cable.</li>
+            </ol>
+          </article>
+
+          <article class="panel-card">
+            <span class="mono-tag">STEP 03</span>
+            <h3>Launch DrionTune PC</h3>
+            <ol class="step-list">
+              <li>Download and extract <strong>DrionTune-PC.zip</strong>.</li>
+              <li>Double-click <strong>DrionTune.exe</strong> (or <code>RUN HERE!!.bat</code>).</li>
+              <li>If Windows SmartScreen appears on first run, click <strong>More info → Run anyway</strong>.</li>
+              <li>Select your device from the dropdown to start live monitoring, debloating, and 1-Click Fix Lag.</li>
+            </ol>
+          </article>
+        </div>
+
+        <div class="actions" style="margin-top: 28px;">
+          <a class="btn btn-primary" href="https://github.com/gwenz2/DrionTune/releases/latest" target="_blank" rel="noopener">Download PC Portable (.zip)</a>
+          <a class="btn btn-secondary" href="https://github.com/gwenz2/DrionTune" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Shizuku via PC (ADB) -->
+    <section id="pc-adb" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">03 / PC / ADB FALLBACK FOR SHIZUKU</span>
+          <h2>Start Shizuku from your computer.</h2>
+          <p>
+            Required if your phone runs <strong>Android 8.0 to Android 10</strong> (which lack built-in Wireless Debugging), or as a 100% reliable fallback if Wireless Debugging pairing keeps disconnecting.
+          </p>
+        </div>
+
+        <div class="guide-steps">
+          <article class="panel-card">
+            <span class="mono-tag">STEP 01</span>
+            <h3>Connect Phone via ADB</h3>
+            <ol class="step-list">
+              <li>Turn ON <strong>USB Debugging</strong> in your phone's Developer Options.</li>
+              <li>Connect your phone to your PC via USB cable.</li>
+              <li>Tap <strong>Allow</strong> on the USB debugging authorization prompt on your phone.</li>
+            </ol>
+          </article>
+
+          <article class="panel-card">
+            <span class="mono-tag">STEP 02</span>
+            <h3>Run the Startup Command</h3>
+            <p class="brand-note">Open PowerShell or Command Prompt on your PC and run:</p>
+            <div class="code-block">adb shell sh /sdcard/Android/data/moe.shizuku.privileged.api/start.sh</div>
+            <p class="brand-note" style="margin-top: 10px;">For Shizuku v13.5+ on Android 11+ via ADB, you can also run:</p>
+            <div class="code-block">adb shell rish_shizuku</div>
+          </article>
+
+          <article class="panel-card">
+            <span class="mono-tag">STEP 03</span>
+            <h3>Confirm on Phone</h3>
+            <ol class="step-list">
+              <li>Open <strong>Shizuku</strong> on your phone. It will immediately show <strong>Shizuku is running (authorized via ADB)</strong>.</li>
+              <li>Open <strong>DrionTune</strong> and tap <strong>Allow</strong>.</li>
+              <li>Step 3 turns green (<strong>Ready</strong>)—you can now safely unplug your USB cable until your next reboot!</li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section id="brand-fixes" class="section">
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">02 / FIX STEP 3 BY PHONE BRAND</span>
+          <span class="eyebrow">04 / FIX STEP 3 BY PHONE BRAND</span>
           <h2>Stuck on Step 3? Unlock your brand's ADB toggle.</h2>
           <p>Some Android skins block Shizuku from spawning DrionTune's shell service until a hidden Developer Options toggle is turned on.</p>
         </div>
@@ -145,9 +242,9 @@
     <section class="section">
       <div class="container faq-layout">
         <div class="faq-intro">
-          <span class="eyebrow">03 / QUICK CHECKLIST</span>
-          <h2>Still not binding?</h2>
-          <p>Verify these three things before retrying.</p>
+          <span class="eyebrow">05 / QUICK CHECKLIST &amp; FAQ</span>
+          <h2>Setup questions &amp; troubleshooting.</h2>
+          <p>Verify these checks before retrying or switching methods.</p>
         </div>
         <div class="faq-list">
           <details open>
@@ -161,6 +258,14 @@
           <details>
             <summary><span class="faq-num">03</span>Is DrionTune enabled inside Shizuku?</summary>
             <p>Open <strong>Shizuku → Authorized apps</strong> and make sure <strong>DrionTune</strong> is toggled ON, then tap <strong>Retry Bind</strong> inside DrionTune.</p>
+          </details>
+          <details>
+            <summary><span class="faq-num">04</span>Does DrionTune PC require Shizuku on my phone?</summary>
+            <p>No. The Windows desktop edition communicates directly via ADB (USB cable or wireless pairing code). It works completely standalone without Shizuku.</p>
+          </details>
+          <details>
+            <summary><span class="faq-num">05</span>Do I have to restart Shizuku after rebooting my phone?</summary>
+            <p>Yes. Android clears ADB process permissions on reboot. Re-run Shizuku (wirelessly or via the one-line PC command) once after every device restart.</p>
           </details>
         </div>
       </div>
