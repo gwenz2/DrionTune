@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Setup Guide &amp; Step 3 Fix — DrionTune</title>
+  <meta name="description" content="Step-by-step Shizuku setup guide and fixes for Step 3 Pending or 'permission of adb is limited' on Realme, OPPO, Xiaomi, Tecno POVA, and Vivo." />
+  <link rel="icon" href="assets/icon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img src="assets/icon.png" alt="DrionTune icon" width="28" height="28" />
+        <span>DrionTune</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="guide.html" aria-current="page">Setup Guide</a>
+        <a href="https://github.com/gwenz2/DrionTune" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+      <a class="btn btn-primary" href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.3.apk">Download APK</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="guide-hero">
+      <div class="container">
+        <span class="eyebrow">SETUP GUIDE · NO ROOT / NO PC</span>
+        <h1>Set up Shizuku &amp; fix Step 3.</h1>
+        <p class="lead">
+          DrionTune uses Shizuku to run system-level commands without root. Follow the 3 steps below, or jump straight to your phone brand if Step 3 gets stuck on <strong>Pending</strong>.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#brand-fixes">Fix Step 3 by Brand</a>
+          <a class="btn btn-secondary" href="#steps">3-Step Setup</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="steps" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">01 / FIRST-TIME SETUP</span>
+          <h2>Three steps. Takes under 2 minutes.</h2>
+          <p>Requires Android 11 or newer and an active Wi-Fi connection during pairing.</p>
+        </div>
+
+        <div class="guide-steps">
+          <article class="panel-card">
+            <span class="mono-tag">STEP 01</span>
+            <h3>Install Shizuku</h3>
+            <ol class="step-list">
+              <li>Install <strong>Shizuku</strong> from Google Play Store or <a class="inline-link" href="https://shizuku.rikka.app/download/" target="_blank" rel="noopener">shizuku.rikka.app</a>.</li>
+              <li>Open Shizuku once and leave it ready in the background.</li>
+            </ol>
+          </article>
+
+          <article class="panel-card">
+            <span class="mono-tag">STEP 02</span>
+            <h3>Start Shizuku via Wireless Debugging</h3>
+            <ol class="step-list">
+              <li>Open <strong>Settings → About Phone</strong> and tap <strong>Build Number</strong> (or OS Version) 7 times until Developer Options unlocks.</li>
+              <li>Open <strong>Developer Options</strong>, then turn ON <strong>USB Debugging</strong> and <strong>Wireless Debugging</strong>.</li>
+              <li>In Shizuku, tap <strong>Pairing → Notification</strong>, then tap <strong>Pair device with pairing code</strong> inside Wireless Debugging.</li>
+              <li>Enter the 6-digit code in the Shizuku notification, go back to Shizuku, and tap <strong>Start</strong> until it says <strong>Shizuku is running</strong>.</li>
+            </ol>
+          </article>
+
+          <article class="panel-card">
+            <span class="mono-tag">STEP 03</span>
+            <h3>Allow DrionTune Access</h3>
+            <ol class="step-list">
+              <li>Open <strong>DrionTune</strong> and tap <strong>Allow</strong> when Shizuku asks for permission.</li>
+              <li>Wait a few seconds for Step 3 to turn green (<strong>Ready</strong>).</li>
+              <li>If Step 3 stays <strong>Pending</strong> (<em>"Shell service did not respond"</em>) or Shizuku shows <strong>"The permission of adb is limited"</strong>, apply your phone brand fix below.</li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="brand-fixes" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">02 / FIX STEP 3 BY PHONE BRAND</span>
+          <h2>Stuck on Step 3? Unlock your brand's ADB toggle.</h2>
+          <p>Some Android skins block Shizuku from spawning DrionTune's shell service until a hidden Developer Options toggle is turned on.</p>
+        </div>
+
+        <div class="grid-2x2">
+          <article class="panel-card">
+            <span class="mono-tag">OPPO · REALME · ONEPLUS</span>
+            <h3>ColorOS / Realme UI / OxygenOS</h3>
+            <p class="brand-note">Fixes <code>Shizuku: The permission of adb is limited</code> and Step 3 Pending.</p>
+            <ol class="step-list">
+              <li>Open <strong>Settings → Developer Options</strong>.</li>
+              <li>Scroll near the bottom and turn <strong>ON</strong> <strong>Disable permission monitoring</strong>.</li>
+              <li>Set Battery usage for <strong>Shizuku</strong> and <strong>DrionTune</strong> to <strong>Allow background activity</strong>.</li>
+              <li>Force stop <strong>Shizuku</strong>, start it again, then tap <strong>Retry Bind</strong> in DrionTune.</li>
+            </ol>
+          </article>
+
+          <article class="panel-card">
+            <span class="mono-tag">XIAOMI · REDMI · POCO</span>
+            <h3>MIUI / HyperOS</h3>
+            <p class="brand-note">Fixes silent bind timeouts and permission blocks.</p>
+            <ol class="step-list">
+              <li>Open <strong>Developer Options</strong> and turn <strong>ON</strong> <strong>USB debugging (Security settings)</strong> <em>(requires SIM card + Mi Account)</em>.</li>
+              <li>In App Info for <strong>Shizuku</strong> &amp; <strong>DrionTune</strong>: set Battery saver to <strong>No restrictions</strong> and enable <strong>Autostart</strong>.</li>
+              <li>Restart <strong>Shizuku</strong>, then tap <strong>Retry Bind</strong> in DrionTune.</li>
+            </ol>
+          </article>
+
+          <article class="panel-card">
+            <span class="mono-tag">TECNO · INFINIX · ITEL</span>
+            <h3>HiOS / XOS (e.g. Tecno POVA)</h3>
+            <p class="brand-note">Android's Battery "No restrictions" alone is often not enough on HiOS.</p>
+            <ol class="step-list">
+              <li>Keep <strong>USB debugging</strong> ON alongside <strong>Wireless debugging</strong>.</li>
+              <li>Check near the bottom of <strong>Developer Options</strong> for <strong>Disable permission monitoring</strong> and turn it <strong>ON</strong> if shown.</li>
+              <li>Open <strong>Phone Master → App Management / Auto-start</strong> and allow both <strong>Shizuku</strong> and <strong>DrionTune</strong>.</li>
+              <li>Open <strong>Shizuku → Authorized apps</strong> to confirm DrionTune is <strong>ON</strong>, restart Shizuku, then tap <strong>Retry Bind</strong>.</li>
+            </ol>
+          </article>
+
+          <article class="panel-card">
+            <span class="mono-tag">VIVO · IQOO · SAMSUNG</span>
+            <h3>Funtouch OS / OriginOS / One UI</h3>
+            <p class="brand-note">Fixes background service kills and restricted ADB.</p>
+            <ol class="step-list">
+              <li><strong>Vivo / iQOO:</strong> Turn ON <strong>USB debugging (Security settings)</strong> or <strong>Disable permission monitoring</strong> in Developer Options, and allow <strong>High background power consumption</strong>.</li>
+              <li><strong>Samsung:</strong> Set Battery to <strong>Unrestricted</strong> for Shizuku and DrionTune so One UI does not put them to sleep.</li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container faq-layout">
+        <div class="faq-intro">
+          <span class="eyebrow">03 / QUICK CHECKLIST</span>
+          <h2>Still not binding?</h2>
+          <p>Verify these three things before retrying.</p>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary><span class="faq-num">01</span>Did you restart Shizuku after changing Developer Options?</summary>
+            <p>Shizuku reads ADB permissions when its service starts. Always stop and re-start Shizuku after toggling <strong>Disable permission monitoring</strong> or <strong>USB debugging (Security settings)</strong>.</p>
+          </details>
+          <details>
+            <summary><span class="faq-num">02</span>Is Wi-Fi still connected?</summary>
+            <p>Android turns off Wireless Debugging if Wi-Fi disconnects. Keep Wi-Fi on while starting Shizuku.</p>
+          </details>
+          <details>
+            <summary><span class="faq-num">03</span>Is DrionTune enabled inside Shizuku?</summary>
+            <p>Open <strong>Shizuku → Authorized apps</strong> and make sure <strong>DrionTune</strong> is toggled ON, then tap <strong>Retry Bind</strong> inside DrionTune.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <img src="assets/icon.png" alt="DrionTune icon" width="22" height="22" />
+        <span>DrionTune</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="guide.html">Setup Guide</a>
+        <a href="https://github.com/gwenz2/DrionTune" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/gwenz2/DrionTune/releases" target="_blank" rel="noopener">Releases</a>
+        <a href="mailto:gwenny252@gmail.com">Support</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
