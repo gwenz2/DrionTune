@@ -278,6 +278,18 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
+.pricing-grid-3,
+.steps-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.steps-3 p { margin: 0; font-size: 14px; }
+.pricing-footnote {
+  margin: 20px 0 0;
+  font-size: 13px;
+  color: var(--dp-color-meta);
+}
 .pricing-card { display: flex; flex-direction: column; justify-content: space-between; gap: 24px; }
 .pricing-card.featured { border-color: var(--dp-color-hairline-2); }
 .pro-head { display: flex; justify-content: space-between; align-items: center; }
@@ -424,7 +436,9 @@ h3 {
   .feature-row,
   .grid-2x2,
   .guide-steps,
+  .steps-3,
   .pricing-grid,
+  .pricing-grid-3,
   .faq-layout { grid-template-columns: 1fr; }
   .feature-row.reverse .feature-text,
   .feature-row.reverse .feature-visual { order: initial; }
