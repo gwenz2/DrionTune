@@ -8,13 +8,13 @@
     <img src="https://img.shields.io/badge/Android-8.0%2B-10b981?style=flat-square&logo=android&logoColor=white" alt="Android 8.0+" />
     <img src="https://img.shields.io/badge/Root-Not%20Required-38bdf8?style=flat-square" alt="No Root Required" />
     <img src="https://img.shields.io/badge/Requires-Shizuku-6366f1?style=flat-square" alt="Requires Shizuku" />
-    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.3/DrionTune-v1.1.3.apk">
-      <img src="https://img.shields.io/badge/Download-APK%20v1.1.3-0ea5e9?style=flat-square" alt="Download APK" />
+    <a href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.4.apk">
+      <img src="https://img.shields.io/badge/Download-APK%20v1.1.4-0ea5e9?style=flat-square" alt="Download APK" />
     </a>
   </p>
 
   <p>
-    <a href="https://github.com/gwenz2/DrionTune/releases/download/v1.1.3/DrionTune-v1.1.3.apk"><strong>Download DrionTune v1.1.3 (APK)</strong></a>
+    <a href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.4.apk"><strong>Download DrionTune v1.1.4 (APK)</strong></a>
     &nbsp;|&nbsp;
     <a href="https://gwenz2.github.io/DrionTune/guide.html"><strong>Setup Guide &amp; Step 3 Fix</strong></a>
     &nbsp;|&nbsp;
@@ -24,18 +24,19 @@
 
 ---
 
-## Upcoming Update: v1.1.4 (Coming Soon)
+## What's New in v1.1.4
 
-Our biggest performance & compatibility update is currently in final testing:
+Our biggest performance & compatibility update is now live:
 
 **New in Free:**
+- **Shizuku Step 3 Direct Shell Fix:** Uses Shizuku's direct shell process by default (no extra JVM / `UserService` bind) — fixes Step 3 timeouts and crashes on Realme, Redmi, POCO, Tecno, Infinix, Wiko, 32-bit/3GB RAM, MediaTek, and Android 11–16 phones, with built-in **Copy Debug Info** diagnostics.
 - **Screen Resolution Downscale (`90%` / `80%` / `70%` / `50% Extreme`):** Cuts GPU pixel load up to 75% across all games (MLBB, CODM, PUBG, Genshin) with proportional DPI, a 15-second game-style auto-revert confirmation, and a 1-tap Reset Resolution banner.
-- **Shizuku v13.6.0 Step 3 Auto-Fix:** Automatic direct process fallback bypasses the Shizuku `UserService` crash on Transsion (Tecno/Infinix/Itel), MediaTek (Redmi/POCO), and Android 15–16 devices.
-- **Per-Game FPS Target & ART Shader Pre-Compile:** Set FPS targets (Android 12+) and pre-compile game bytecode/shaders to reduce mid-match stutters (with 1-tap reset).
+- **Full Game Auto-Detection (`+ Add missing game`):** Auto-detects all Android `CATEGORY_GAME` apps (Android 8–16) in the Game Launcher dropdown, plus an option to add any missing/sideloaded game.
+- **FPS Cap / Frame Pacing & ART Shader Pre-Compile:** Set frame-pacing/FPS caps (Android 12+, does not bypass in-game 60 FPS caps) and pre-compile game bytecode/shaders to reduce mid-match stutters (with 1-tap reset).
 - **Zero-RAM Restore Notification & Auto-Update Alerts:** 1-tap "Restore Now" notification while apps are frozen or screen is scaled (no background service), plus automatic in-app update notifications.
 
 **New in Pro (`$1.99` one-time):**
-- **Lock Max Refresh Rate (90/120Hz):** Hardware-verified refresh rate lock (reads real panel Hz from `dumpsys display`, cleanly reversible).
+- **Prevent 60Hz Display Drops (90/120Hz Panels):** Hardware-verified display refresh lock (reads real panel Hz from `dumpsys display` so Android doesn't drop screen Hz to 60Hz; does not bypass in-game 60 FPS caps; cleanly reversible).
 - **Soft Background Throttle (AppOps):** Stops background hog apps from waking CPU/network without freezing or hiding their icons.
 - **Custom Debloater (`All Apps` Search):** Search and safely disable/restore any non-core package (critical Android OS packages are protected).
 - **Per-Game Auto Profiles:** Save resolution scale, FPS target, and freeze lists per game — auto-loads and applies on launch.

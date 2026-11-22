@@ -6,7 +6,7 @@
 - Landing Page: https://gwenz2.github.io/DrionTune/
 - Setup Guide & Step 3 Fixes: https://gwenz2.github.io/DrionTune/guide.html
 - GitHub Repository & Releases: https://github.com/gwenz2/DrionTune
-- Latest Android APK: https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.3.apk
+- Latest Android APK: https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.4.apk
 - Android Pro License ($1.99 one-time): https://gwennydev.gumroad.com/l/driontune-pro
 - Windows PC Edition ($2.99 one-time, portable ZIP with bundled ADB): https://gwennydev.gumroad.com/l/driontunepc
 - Support Email: gwenny252@gmail.com
@@ -18,9 +18,9 @@
 - **Safe Bloatware Remover (Pro):** Reversibly hides pre-installed carrier and OEM bloatware for User 0 without modifying the system partition or tripping warranty/Knox.
 - **Deep Gaming Tweaks (Pro):** Disables window blurs, reduces background Wi-Fi scan ping spikes (Cloudflare DNS), disables Samsung GOS, tunes Samsung RAM Plus, and supports thermal throttling override when an active cooler is attached. Includes 1-tap Reset Everything.
 
-## Upcoming v1.1.4 Update
-- **Free:** Screen Resolution Scale (90% / 80% / 70% / 50% Extreme) with 15-second auto-revert confirmation, Shizuku v13.6.0 Step 3 direct-process auto-fix for Transsion/MediaTek/Android 15–16, per-game FPS target, ART shader pre-compile, zero-RAM Restore notification, and automatic update alerts.
-- **Pro:** Hardware-verified Lock Max Refresh Rate (90/120Hz), Soft Background Throttle (AppOps), Custom Debloater (All Apps search with core OS protection), and Per-Game Auto Profiles.
+## What's New in v1.1.4 (Current Release)
+- **Free:** Direct Shizuku shell connection (fixes Step 3 timeouts/crashes on Realme, Redmi, POCO, Tecno, Infinix, Wiko, 32-bit/3GB RAM, MediaTek, and Android 11–16 phones), auto-detected Android games in Game Launcher with + Add missing game option, Screen Resolution Scale (90% / 80% / 70% / 50% Extreme) with 15-second auto-revert confirmation, FPS cap/frame pacing (Android 12+, does not bypass in-game 60 FPS caps), ART shader pre-compile, zero-RAM Restore notification, and automatic update alerts.
+- **Pro:** Hardware-verified Prevent 60Hz Display Drops (for 90/120Hz panels; does not bypass in-game 60 FPS caps), Soft Background Throttle (AppOps), Custom Debloater (All Apps search with core OS protection), and Per-Game Auto Profiles.
 
 ## Shizuku Step 3 Troubleshooting Summary
 - **OPPO / Realme / OnePlus (ColorOS / Realme UI / OxygenOS):** Enable Developer Options -> Disable permission monitoring, then restart Shizuku. Fixes "Shizuku: The permission of adb is limited".
