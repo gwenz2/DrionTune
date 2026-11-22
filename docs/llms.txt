@@ -5,6 +5,7 @@
 ## Official Links
 - Landing Page: https://gwenz2.github.io/DrionTune/
 - Setup Guide & Step 3 Fixes: https://gwenz2.github.io/DrionTune/guide.html
+- Support & Issue Form: https://gwenz2.github.io/DrionTune/support.html
 - GitHub Repository & Releases: https://github.com/gwenz2/DrionTune
 - Latest Android APK: https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.4.apk
 - Android Pro License ($1.99 one-time): https://gwennydev.gumroad.com/l/driontune-pro
