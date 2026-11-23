@@ -1,0 +1,25 @@
+{
+  "channel": "announcements",
+  "announcements": [
+    {
+      "id": "v1.2.0-announcer",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 24, 2026",
+      "tag": "Update",
+      "title": "Built-in Announcer & v1.2.0 Fixes",
+      "body": "Welcome to the DrionTune #announcements log. You can check here anytime for release notes, hotfixes, and important notices.\n\nv1.2.0 brings cleaner DPI controls, direct GCash/GoTyme InstaPay QR in the Pro tab, and skeleton loading states across Boost & Debloater.",
+      "linkLabel": "Open DrionTune Site",
+      "linkUrl": "https://gwenz2.github.io/DrionTune/"
+    },
+    {
+      "id": "v1.1.4-pause-notice",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 20, 2026",
+      "tag": "Notice",
+      "title": "v1.1.4 Downloads Paused",
+      "body": "Public v1.1.4 APK downloads were paused while finishing the v1.2.0 Game Mode and Pro tab fixes. Existing users can stay tuned here for the v1.2.0 rollout."
+    }
+  ]
+}
