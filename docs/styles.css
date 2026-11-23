@@ -107,6 +107,15 @@ a { color: inherit; text-decoration: none; }
   border-color: var(--dp-color-hairline-2);
 }
 .btn-secondary:hover { border-color: var(--dp-color-bright); }
+.btn-disabled,
+.btn:disabled {
+  background: var(--dp-color-panel);
+  color: var(--dp-color-meta);
+  border-color: var(--dp-color-hairline-2);
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.72;
+}
 .btn.full { width: 100%; }
 
 /* Hero */
@@ -140,6 +149,18 @@ a { color: inherit; text-decoration: none; }
   border-radius: 50%;
   background: var(--dp-color-live);
   display: inline-block;
+}
+.live-dot.warn { background: #f59e0b; }
+.update-notice {
+  max-width: 560px;
+  margin: 0 0 20px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  background: rgba(245, 158, 11, 0.08);
+  color: #fcd34d;
+  font-size: 13px;
+  line-height: 1.5;
 }
 h1 {
   margin: 0 0 20px;
