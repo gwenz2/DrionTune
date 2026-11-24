@@ -2,6 +2,17 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "v1.2.1-live",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 24, 2026",
+      "tag": "Update",
+      "title": "DrionTune v1.2.1 Is Live!",
+      "body": "v1.2.1 hotfix is out (builds on v1.2.0 with all v1.2.0 features intact):\n• Defers cold-start trial reset & \"Restore Now\" notification taps until Shizuku connects (protects stock snapshots)\n• Fixes \"Watch Ad\" button hanging if ad init fails\n• Moves QR save to background thread, disables update cache, & adds unknown-apps install prompt\n• Live 30s trial countdown + safer external link handling",
+      "linkLabel": "Download v1.2.1",
+      "linkUrl": "https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.1.apk"
+    },
+    {
       "id": "v1.2.0-live",
       "author": "Gwen Balajediong",
       "role": "DEV",

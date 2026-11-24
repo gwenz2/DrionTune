@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
-  "apkUrl": "https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.0.apk",
-  "notes": "Fixes v1.1.4 DPI/screen zoom overwrite & false Frozen debloater tags, unlocks Restore All / Restore Anything / Reset Everything for free, adds 0.5x animations, Hide Pop-Ups, Cached Apps Freezer, Clear App Caches, 65 OEM bloatware presets, GCash/GoTyme InstaPay QR, and built-in #announcements."
+  "version": "1.2.1",
+  "apkUrl": "https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.1.apk",
+  "notes": "v1.2.1 hotfix: Defers cold-start trial reset & notification restore until Shizuku connects, fixes Watch Ad init failure hang, moves QR save to IO thread, disables update cache, adds unknown-apps install prompt, and adds live trial timer."
 }
