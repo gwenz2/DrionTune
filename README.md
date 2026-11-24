@@ -8,13 +8,13 @@
     <img src="https://img.shields.io/badge/Android-8.0%2B-10b981?style=flat-square&logo=android&logoColor=white" alt="Android 8.0+" />
     <img src="https://img.shields.io/badge/Root-Not%20Required-38bdf8?style=flat-square" alt="No Root Required" />
     <img src="https://img.shields.io/badge/Requires-Shizuku-6366f1?style=flat-square" alt="Requires Shizuku" />
-    <a href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.4.apk">
-      <img src="https://img.shields.io/badge/Download-APK%20v1.1.4-0ea5e9?style=flat-square" alt="Download APK" />
+    <a href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.0.apk">
+      <img src="https://img.shields.io/badge/Download-APK%20v1.2.0-0ea5e9?style=flat-square" alt="Download APK" />
     </a>
   </p>
 
   <p>
-    <a href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.4.apk"><strong>Download DrionTune v1.1.4 (APK)</strong></a>
+    <a href="https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.0.apk"><strong>Download DrionTune v1.2.0 (APK)</strong></a>
     &nbsp;|&nbsp;
     <a href="https://gwenz2.github.io/DrionTune/guide.html"><strong>Setup Guide &amp; Step 3 Fix</strong></a>
     &nbsp;|&nbsp;
@@ -23,6 +23,13 @@
 </div>
 
 ---
+
+## What's New in v1.2.0
+
+- **DPI & Screen Size Fix:** Saves original Screen Zoom first, auto-reverts unsafe sizes in 15s, and adds **Make it default** + 1-tap **Restore Factory**.
+- **Free Safe Recovery:** **Restore All**, **Restore Anything**, and **Reset Everything** are now 100% free.
+- **Debloater Fix + 65 Safe OEM Presets:** Fixes false "Frozen" tags from Deep Sleep, adds anti-bootloop lock for VoLTE/biometrics/core OS, and expands safe presets to 65 across major OEMs.
+- **More Pro Tweaks & UI:** 0.5x Animations, Hide Pop-Up Notifications, Cached Apps Freezer, Clear App Caches, direct GCash/GoTyme InstaPay QR, and built-in `#announcements`.
 
 ## What's New in v1.1.4
 

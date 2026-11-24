@@ -1,5 +1,5 @@
 {
-  "version": "1.1.4",
-  "apkUrl": "https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.4.apk",
-  "notes": "Direct Shizuku shell fix (fixes Step 3 on Realme/Redmi/POCO/Tecno/Infinix/MediaTek), Game Launcher auto-detect + Add Game shelf, Screen Resolution Scale (90/80/70/50%) with 15s auto-revert, shader pre-compile, Restore notification, plus Pro Prevent 60Hz Display Drops, Soft Throttle, Custom Debloater, and Per-Game Auto Profiles."
+  "version": "1.2.0",
+  "apkUrl": "https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.0.apk",
+  "notes": "Fixes v1.1.4 DPI/screen zoom overwrite & false Frozen debloater tags, unlocks Restore All / Restore Anything / Reset Everything for free, adds 0.5x animations, Hide Pop-Ups, Cached Apps Freezer, Clear App Caches, 65 OEM bloatware presets, GCash/GoTyme InstaPay QR, and built-in #announcements."
 }
