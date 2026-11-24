@@ -9,7 +9,7 @@
 - Latest Android APK: https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.1.4.apk
 - Android Pro License ($1.99 one-time): https://gwennydev.gumroad.com/l/driontune-pro
 - Windows PC Edition ($2.99 one-time, portable ZIP with bundled ADB): https://gwennydev.gumroad.com/l/driontunepc
-- Support Email: gwenny252@gmail.com
+- Support Email: balajedriondev@gmail.com
 
 ## What DrionTune Does
 - **Zero Background Drain:** Runs only when opened; does not leave an accessibility service or background daemon eating CPU/battery during matches.
