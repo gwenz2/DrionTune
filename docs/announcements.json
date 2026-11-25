@@ -2,6 +2,15 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261125-driontune-without-developer--s805",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 25, 2026",
+      "tag": "Notice",
+      "title": "DrionTune Without Developer Options",
+      "body": "Someone found a new way to use DrionTune with disabled Developer Options.\nI'm testing and preparing it now so setup will be much easier. Stay tuned for the upcoming update!"
+    },
+    {
       "id": "20261125-gcash-gotyme-pro-keys-tempor-iut4",
       "author": "Gwen Balajediong",
       "role": "DEV",
