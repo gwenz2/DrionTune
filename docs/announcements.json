@@ -2,6 +2,17 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261125-paying-for-pro-via-gcash-or--t8kz",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 25, 2026",
+      "tag": "Notice",
+      "title": "Paying for Pro via GCash or GoTyme (₱99)",
+      "body": "If you want to pay for DrionTune Pro via GCash or GoTyme QR (₱99), please message my official Facebook account (Gwen Balajediong) and send your receipt screenshot or Reference #.\n\nAlready paid? Message me there so I can verify your payment and send your Pro license key right away.",
+      "linkLabel": "PM Gwen on Facebook",
+      "linkUrl": "https://www.facebook.com/gwen.balajediong.2024/"
+    },
+    {
       "id": "v1.2.1-live",
       "author": "Gwen Balajediong",
       "role": "DEV",
