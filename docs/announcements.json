@@ -2,6 +2,15 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261125-dpi-issue-vg7l",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 25, 2026",
+      "tag": "Notice",
+      "title": "DPI Issue",
+      "body": "I'm aware of DPI and screen size issues on specific devices and am currently working on a fix. Please stay tuned for updates.\n\nYou can still lower the resolution if you really need the extra performance, but I advise avoiding it if you don't have to."
+    },
+    {
       "id": "20261125-driontune-without-developer--s805",
       "author": "Gwen Balajediong",
       "role": "DEV",
@@ -22,22 +31,13 @@
       "linkUrl": "https://gwennydev.gumroad.com/l/driontune-pro"
     },
     {
-      "id": "20261125-next-update-ygus",
-      "author": "Gwen Balajediong",
-      "role": "DEV",
-      "timestamp": "Nov 25, 2026",
-      "tag": "Notice",
-      "title": "Next update",
-      "body": "I am also planning to add a built-in feature in a future update that accepts GCash directly inside the app (no manual messaging needed)."
-    },
-    {
       "id": "20261125-paying-for-pro-via-gcash-or--t8kz",
       "author": "Gwen Balajediong",
       "role": "DEV",
       "timestamp": "Nov 25, 2026",
       "tag": "Notice",
       "title": "Paying for Pro via GCash or GoTyme (₱99)",
-      "body": "If you want to pay for DrionTune Pro via GCash or GoTyme QR (₱99), please message my official Facebook account (Gwen Balajediong) and send your receipt screenshot or Reference #.\n\nAlready paid? Message me there so I can verify your payment and send your Pro license key right away.",
+      "body": "I'm planning to add a built-in feature in a future update that accepts GCash directly inside the app (no manual messaging needed).\n\nAlready paid? Message me there so I can verify your payment and send your Pro license key right away.",
       "linkLabel": "PM Gwen on Facebook",
       "linkUrl": "https://www.facebook.com/gwen.balajediong.2024/"
     },
