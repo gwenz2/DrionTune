@@ -778,3 +778,56 @@ h3 {
   .guide-tabs { width: 100%; border-radius: var(--dp-radius-panel); }
   .guide-tab-btn { width: 100%; text-align: center; border-radius: 4px; }
 }
+
+/* Card deck */
+.card-deck-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.card-deck-nav {
+  display: flex;
+  gap: 8px;
+}
+.deck-btn {
+  background: var(--dp-color-panel);
+  color: var(--dp-color-bright);
+  border: 1px solid var(--dp-color-hairline-2);
+  border-radius: var(--dp-radius-pill);
+  min-height: 40px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-family: var(--dp-typography-mono);
+  cursor: pointer;
+}
+.deck-btn:hover {
+  border-color: var(--dp-color-live);
+}
+.deck-card {
+  display: none;
+}
+.deck-card.is-active {
+  display: block;
+}
+
+.proof-shot img {
+  max-height: 180px;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  #feedback .grid-2x2 {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 14px;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+  #feedback .proof-card {
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+  }
+}

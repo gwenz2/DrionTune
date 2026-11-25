@@ -205,34 +205,57 @@
           <h2>Fixed the v1.1.4 DPI &amp; debloater issues—plus free safe buttons.</h2>
           <p><strong>v1.2.0 is live</strong>—directly fixing the screen size/zoom bug, false &ldquo;Frozen&rdquo; debloater labels, unlocking all safety restore buttons for free, and adding 4 new Pro tweaks.</p>
         </div>
-        <div class="grid-2x2">
-          <article class="panel-card">
+        <div class="card-deck" data-card-deck>
+          <div class="card-deck-bar">
+            <span class="mono-tag" data-deck-counter>1 / 5</span>
+            <div class="card-deck-nav">
+              <button type="button" class="deck-btn" data-deck-prev aria-label="Previous update">← Prev</button>
+              <button type="button" class="deck-btn" data-deck-next aria-label="Next update">Next →</button>
+            </div>
+          </div>
+          <article class="panel-card deck-card is-active">
             <span class="mono-tag">v1.2.0 · DPI &amp; SCREEN SIZE FIX</span>
             <h3>No More Stuck Zoom or Weird Screen Size</h3>
-            <p>Fixed the v1.1.4 bug that could overwrite Samsung Screen Zoom or leave icons too big/small. v1.2.0 saves your original zoom first, auto-reverts unsafe sizes in 15s, and adds <strong>Make it default</strong> + 1-tap <strong>Restore Factory</strong>.</p>
+            <p>Saves original zoom first, auto-reverts unsafe sizes in 15s, and adds <strong>Make it default</strong> + 1-tap <strong>Restore Factory</strong>.</p>
           </article>
-          <article class="panel-card">
+          <article class="panel-card deck-card">
             <span class="mono-tag">v1.2.0 · 100% FREE SAFE BUTTONS</span>
             <h3>Free Restore All, Restore Anything &amp; Reset Everything</h3>
-            <p>Safety recovery is never behind a paywall. <strong>Restore All</strong> only brings back apps DrionTune removed (skipping untouched system stubs), <strong>Restore Anything</strong> recovers any disabled app, and <strong>Reset Everything</strong> clears all tweaks in one tap.</p>
+            <p>Safety recovery is never paywalled—recover removed/disabled apps or reset all tweaks in one tap.</p>
           </article>
-          <article class="panel-card">
+          <article class="panel-card deck-card">
             <span class="mono-tag">v1.2.0 PRO · DEBLOATER FIX</span>
             <h3>Fixed False &ldquo;Frozen&rdquo; Tags + 65 Safe OEM Presets</h3>
-            <p>Fixed phone Deep Sleep falsely marking apps as &ldquo;Frozen&rdquo;, added a caution warning + anti-bootloop lock for VoLTE/biometrics/core OS, and grew safe presets from 25 to 65 across Samsung, Xiaomi/POCO, Realme/OPPO, Vivo, Tecno, and Infinix.</p>
+            <p>Fixes Deep Sleep false tags, locks VoLTE/biometrics/core OS, and expands safe presets to 65 across major OEMs.</p>
           </article>
-          <article class="panel-card">
+          <article class="panel-card deck-card">
             <span class="mono-tag">v1.2.0 PRO · MORE PRO FEATURES</span>
             <h3>0.5x Animations, Hide Pop-Ups, Cached Apps Freezer &amp; Cache Trim</h3>
-            <p>Adds snappier 0.5x UI animations, Hide Pop-Up Notifications while gaming, Android 11+ Cached Apps Freezer, 1-tap Clear App Caches, stronger Soft Throttle, and in-app GCash/GoTyme InstaPay QR.</p>
+            <p>Adds 0.5x UI animations, Hide Pop-Ups, Android 11+ Cached Apps Freezer, 1-tap Cache Trim, stronger Soft Throttle, and InstaPay QR.</p>
+          </article>
+          <article class="panel-card deck-card">
+            <span class="mono-tag">v1.2.1 · HOTFIX RELEASE</span>
+            <h3>Cold-Start, Ad Trial &amp; Updater Reliability Fixes</h3>
+            <p>Defers trial/restore until Shizuku connects, fixes offline &ldquo;Watch Ad&rdquo; hangs, moves QR saves off main thread, and adds live trial timer + install-unknown-apps prompt.</p>
           </article>
         </div>
-
-        <div class="panel-card" style="margin-top: 16px;">
-          <span class="mono-tag">v1.2.1 · HOTFIX RELEASE</span>
-          <h3>Cold-Start, Ad Trial &amp; Updater Reliability Fixes</h3>
-          <p><strong>v1.2.1</strong> builds on v1.2.0 with stability fixes while keeping every v1.2.0 feature: defers trial expiry reset and &ldquo;Restore Now&rdquo; notification taps until Shizuku connects so stock snapshots are never lost, fixes &ldquo;Watch Ad&rdquo; hanging on offline/init failures, moves QR gallery saves off the main thread, disables update check HTTP caching, adds an &ldquo;Install unknown apps&rdquo; prompt, and ticks the trial timer live.</p>
-        </div>
+        <script>
+          (function () {
+            var deck = document.querySelector('[data-card-deck]');
+            if (!deck) return;
+            var cards = deck.querySelectorAll('.deck-card');
+            var counter = deck.querySelector('[data-deck-counter]');
+            var i = 0;
+            function show(n) {
+              cards[i].classList.remove('is-active');
+              i = (n + cards.length) % cards.length;
+              cards[i].classList.add('is-active');
+              if (counter) counter.textContent = (i + 1) + ' / ' + cards.length;
+            }
+            deck.querySelector('[data-deck-prev]').addEventListener('click', function () { show(i - 1); });
+            deck.querySelector('[data-deck-next]').addEventListener('click', function () { show(i + 1); });
+          })();
+        </script>
 
         <div class="res-proof panel-card">
           <div class="res-proof-head">
@@ -294,6 +317,54 @@
             </div>
             <p class="proof-quote">“Legit smooth na ML ko kahit naka Helio G85 lang cp ko.” <span style="color: var(--dp-color-muted);">(My Mobile Legends runs legit smooth now even on a Helio G85 phone.)</span></p>
             <p class="proof-meta">Facebook Comment · Budget MediaTek Device</p>
+          </article>
+          <article class="panel-card proof-card">
+            <span class="mono-tag">BLOOD STRIKE · STABLE 60 FPS</span>
+            <div class="proof-shot">
+              <img src="assets/proof-bloodstrike.png" alt="Player comment: Stable 60fps in Blood Strike and no more lag" loading="lazy" />
+            </div>
+            <p class="proof-quote">“Stable 60fps naakin sa Blood Strike at wlang ng lag, maraming salamat.” <span style="color: var(--dp-color-muted);">(Stable 60fps in Blood Strike and no more lag.)</span></p>
+            <p class="proof-meta">Facebook Comment · Rojie C.</p>
+          </article>
+          <article class="panel-card proof-card">
+            <span class="mono-tag">DIMENSITY 7400 ULTRA · 90 FPS MLBB</span>
+            <div class="proof-shot">
+              <img src="assets/proof-redmi.png" alt="Player Messenger feedback: Stable 90fps in MLBB on Redmi Note 15 Pro 5G" loading="lazy" />
+            </div>
+            <p class="proof-quote">“Nung tinry ko ngayon yung app mo, anlaki ng difference. Wala na yung fps drop, stable 90 sa MLBB.” <span style="color: var(--dp-color-muted);">(Huge difference—FPS drops gone, stable 90fps in MLBB.)</span></p>
+            <p class="proof-meta">Facebook Messenger · Redmi Note 15 Pro 5G</p>
+          </article>
+          <article class="panel-card proof-card">
+            <span class="mono-tag">CODM · 88–90 FPS</span>
+            <div class="proof-shot">
+              <img src="assets/proof-realme.png" alt="Player Messenger feedback: 88-90fps in CODM on Realme 13 Pro Plus" loading="lazy" />
+            </div>
+            <p class="proof-quote">“Nung hindi ko pa na access yung app 65–80 fps lang, nung ginamit ko yung app niyo stable 88–90 fps na.” <span style="color: var(--dp-color-muted);">(Went from 65–80fps to a stable 88–90fps in CODM.)</span></p>
+            <p class="proof-meta">Facebook Messenger · Realme 13 Pro Plus</p>
+          </article>
+          <article class="panel-card proof-card">
+            <span class="mono-tag">TECNO POVA 5 · HELIO G99</span>
+            <div class="proof-shot">
+              <img src="assets/proof-pova5.png" alt="Player comment: Smooth gameplay on Tecno Pova 5 Helio G99" loading="lazy" />
+            </div>
+            <p class="proof-quote">“Tecno Pova 5 Helio G99 gamit ko. Gangstar Mirage City lang nilalaro ko goods naman siya.” <span style="color: var(--dp-color-muted);">(Using Tecno Pova 5 Helio G99—runs smooth.)</span></p>
+            <p class="proof-meta">Facebook Comment · Emmanuel U.</p>
+          </article>
+          <article class="panel-card proof-card">
+            <span class="mono-tag">APP FREEZER · LESS HEAT</span>
+            <div class="proof-shot">
+              <img src="assets/proof-codm-freeze.png" alt="Player Messenger feedback: Smooth CODM and less heat after freezing background apps" loading="lazy" />
+            </div>
+            <p class="proof-quote">“Hirap na hirap ako dati sa CODM nag ffps drop tas bilis uminit ng cp ko… smooth na ng CODM ko kse pinagf-freeze ko yung mga nag rarun na apps.” <span style="color: var(--dp-color-muted);">(Used to get FPS drops and overheating in CODM; now smooth after freezing background apps.)</span></p>
+            <p class="proof-meta">Facebook Messenger · CODM Player</p>
+          </article>
+          <article class="panel-card proof-card">
+            <span class="mono-tag">3GB RAM · LOW-END</span>
+            <div class="proof-shot">
+              <img src="assets/proof-3gbram.png" alt="Player Messenger feedback: 3GB RAM device lag fixed with DrionTune" loading="lazy" />
+            </div>
+            <p class="proof-quote">“Ram ko 3 sobrang laggg nung walang driontune.” <span style="color: var(--dp-color-muted);">(Only 3GB RAM—it was super laggy without DrionTune.)</span></p>
+            <p class="proof-meta">Facebook Messenger · 3GB RAM Device</p>
           </article>
         </div>
       </div>
