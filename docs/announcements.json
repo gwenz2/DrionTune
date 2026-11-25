@@ -2,6 +2,15 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261125-dpi-issue-fix-ready-cv9t",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 25, 2026",
+      "tag": "Notice",
+      "title": "DPI Issue Fix Ready",
+      "body": "Good news! I've resolved the DPI and screen size issues affecting specific devices. The fix isn't live just yet, but it will be rolled out in the upcoming update. Thanks for waiting!"
+    },
+    {
       "id": "20261125-dpi-issue-vg7l",
       "author": "Gwen Balajediong",
       "role": "DEV",
@@ -48,29 +57,9 @@
       "timestamp": "Nov 24, 2026",
       "tag": "Update",
       "title": "DrionTune v1.2.1 Is Live!",
-      "body": "v1.2.1 hotfix is out (builds on v1.2.0 with all v1.2.0 features intact):\n• Defers cold-start trial reset & \"Restore Now\" notification taps until Shizuku connects (protects stock snapshots)\n• Fixes \"Watch Ad\" button hanging if ad init fails\n• Moves QR save to background thread, disables update cache, & adds unknown-apps install prompt\n• Live 30s trial countdown + safer external link handling",
+      "body": "v1.2.1 hotfix is out:\n• Defers cold-start trial reset & \"Restore Now\" notification taps until Shizuku connects (protects stock snapshots)\n• Fixes \"Watch Ad\" button hanging if ad init fails\n• Moves QR save to background thread, disables update cache, & adds unknown-apps install prompt\n• Live 30s trial countdown + safer external link handling",
       "linkLabel": "Download v1.2.1",
       "linkUrl": "https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.1.apk"
-    },
-    {
-      "id": "v1.2.0-live",
-      "author": "Gwen Balajediong",
-      "role": "DEV",
-      "timestamp": "Nov 24, 2026",
-      "tag": "Update",
-      "title": "DrionTune v1.2.0 Is Live!",
-      "body": "v1.2.0 is now out.\n\nWhat's fixed & new:\n• Fixed DPI / Screen Zoom bug (saves original zoom, 15s auto-revert, Make it default, Restore Factory)\n• Free safety recovery buttons (Restore All, Restore Anything, Reset Everything)\n• Fixed false Frozen tags in Debloater + 65 safe OEM presets + anti-bootloop lock\n• 0.5x Animations, Hide Pop-Ups, Cached Apps Freezer, Clear App Caches\n• Built-in #announcements channel + direct GCash/GoTyme InstaPay QR in Pro",
-      "linkLabel": "Download v1.2.0",
-      "linkUrl": "https://gwenz2.github.io/DrionTune/"
-    },
-    {
-      "id": "v1.1.4-pause-notice",
-      "author": "Gwen Balajediong",
-      "role": "DEV",
-      "timestamp": "Nov 20, 2026",
-      "tag": "Notice",
-      "title": "v1.1.4 Downloads Paused",
-      "body": "Public v1.1.4 APK downloads were paused while finishing the v1.2.0 DPI, Debloater, and Pro tab fixes. Update to v1.2.0 for the latest fixes."
     }
   ]
 }
