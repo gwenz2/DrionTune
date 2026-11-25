@@ -2,6 +2,15 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261125-next-update-ygus",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 25, 2026",
+      "tag": "Notice",
+      "title": "Next update",
+      "body": "I am also planning to add a built-in feature in a future update that accepts GCash directly inside the app (no manual messaging needed)."
+    },
+    {
       "id": "20261125-paying-for-pro-via-gcash-or--t8kz",
       "author": "Gwen Balajediong",
       "role": "DEV",
