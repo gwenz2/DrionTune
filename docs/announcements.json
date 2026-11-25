@@ -2,6 +2,17 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261125-gcash-gotyme-pro-keys-tempor-iut4",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 25, 2026",
+      "tag": "Alert",
+      "title": "GCash / GoTyme Pro Keys Temporarily Paused",
+      "body": "Manual GCash and GoTyme Pro key issuance is temporarily paused while we upgrade our local key system.\n\nFor instant Pro activation, please use Gumroad in the Pro tab. Existing Pro keys continue to work normally. GCash support will return in the next update!",
+      "linkLabel": "Buy Instant Key (Gumroad)",
+      "linkUrl": "https://gwennydev.gumroad.com/l/driontune-pro"
+    },
+    {
       "id": "20261125-next-update-ygus",
       "author": "Gwen Balajediong",
       "role": "DEV",
