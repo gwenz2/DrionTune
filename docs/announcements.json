@@ -2,6 +2,16 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261126-test-mahc",
+      "author": "Trevor",
+      "role": "Neygha",
+      "timestamp": "Nov 26, 2026",
+      "tag": "Alert",
+      "title": "Test",
+      "body": "adlbjajlbfc,asc,,nacac",
+      "avatar": "bot"
+    },
+    {
       "id": "20261126-freeze-method-reverted-for-u-rwrg",
       "author": "Gwen Balajediong",
       "role": "DEV",
