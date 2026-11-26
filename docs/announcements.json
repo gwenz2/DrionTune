@@ -2,6 +2,46 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261126-test-4-fsun",
+      "author": "saprkada",
+      "role": "bolt",
+      "timestamp": "Nov 26, 2026",
+      "tag": "Update",
+      "title": "test 4",
+      "body": "ahdkdclknlkanklcnl",
+      "avatar": "bolt"
+    },
+    {
+      "id": "20261126-test-3-vafa",
+      "author": "Gwen Balajediong",
+      "role": "shield",
+      "timestamp": "Nov 26, 2026",
+      "tag": "Fix",
+      "title": "test 3",
+      "body": "adsdvv",
+      "avatar": "shield"
+    },
+    {
+      "id": "20261126-test-2-1fo3",
+      "author": "mash",
+      "role": "spark",
+      "timestamp": "Nov 26, 2026",
+      "tag": "Alert",
+      "title": "test 2",
+      "body": "akbvjkjkcdv",
+      "avatar": "spark"
+    },
+    {
+      "id": "20261126-test1-oux9",
+      "author": "gwen test",
+      "role": "DEV",
+      "timestamp": "Nov 26, 2026",
+      "tag": "Update",
+      "title": "test1",
+      "body": "test ajkdbkjabjdk",
+      "avatar": "dev"
+    },
+    {
       "id": "20261126-freeze-method-reverted-for-u-rwrg",
       "author": "Gwen Balajediong",
       "role": "DEV",
