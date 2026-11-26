@@ -1,5 +1,6 @@
 {
-  "version": "1.2.1",
-  "apkUrl": "https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.1.apk",
-  "notes": "v1.2.1 hotfix: Defers cold-start trial reset & notification restore until Shizuku connects, fixes Watch Ad init failure hang, moves QR save to IO thread, disables update cache, adds unknown-apps install prompt, and adds live trial timer."
+  "version": "1.2.2",
+  "apkUrl": "https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.2.apk",
+  "sha256": "75d1722682b2363e3b13bbbc14d7429b945b1bfe9ffa576c5d0826b7ea41fc58",
+  "notes": "v1.2.2: Fixes DPI/screen size restore on affected devices, adds in-app DrionTune Pay (GCash/Maya/GoTyme ₱150) receipt verification, and polishes DNS/Adblock & Freeze/Restore dialogs."
 }

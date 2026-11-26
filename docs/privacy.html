@@ -23,7 +23,7 @@
   <main>
     <div class="card">
       <h1>DrionTune Privacy Policy</h1>
-      <div class="meta">Last updated: November 24, 2026 · Developer: Gwen Balajediong</div>
+      <div class="meta">Last updated: November 25, 2026 · Developer: Gwen Balajediong</div>
 
       <p>DrionTune is a utility application developed by Gwen Balajediong. We respect your privacy and collect as little data as possible.</p>
 
@@ -38,11 +38,11 @@
         <li><strong>Google Forms (Optional Support / Feedback):</strong> If you submit a bug report or feedback via our Google Form, your submission is processed by Google according to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
       </ul>
 
-      <h2>3. Manual Local Payments (GCash / GoTyme)</h2>
-      <p>If you choose to purchase a Pro license via GCash or GoTyme InstaPay QR and message your receipt on Facebook Messenger, we use your receipt solely to verify payment and issue your license key. We do not sell or share your contact details.</p>
+      <h2>3. DrionTune Pay (Local GCash / Maya / GoTyme Verification)</h2>
+      <p>If you choose to purchase a Pro license via local PH transfer, your payment ticket is processed by <code>driontune-pay.gwenny252.workers.dev</code> (Cloudflare Workers + D1). We store only the name/handle you enter, optional email, payment reference/message, and any uploaded receipt screenshot. Uploaded receipt screenshots are <strong>automatically deleted</strong> from the database once your payment is approved. We also store an anonymous device <code>installId</code> solely to verify and enforce Pro license activations.</p>
 
       <h2>4. Local Storage</h2>
-      <p>DrionTune stores your app preferences, backup snapshots of modified system settings, cached announcements, and Pro activation status locally on your device using Android SharedPreferences.</p>
+      <p>DrionTune stores your app preferences, backup snapshots of modified system settings, cached announcements, active payment ticket token (<code>pay_thread_token</code>), and Pro activation status locally on your device using Android SharedPreferences.</p>
 
       <h2>5. Contact &amp; Data Requests</h2>
       <p>For privacy questions or to request deletion of support messages/submissions, contact: <a href="mailto:balajedriondev@gmail.com">balajedriondev@gmail.com</a>.</p>
