@@ -2,6 +2,15 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261126-v1-2-2-is-live-rqur",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 26, 2026",
+      "tag": "Update",
+      "title": "v1.2.2 is Live",
+      "body": "DrionTune v1.2.2 is out now. It fixes DPI and screen size restore on affected phones, adds in-app DrionTune Pay (GCash, Maya, and GoTyme ₱150) receipt verification, polishes DNS/Adblock and Freeze/Restore dialogs, and verifies APK update downloads with SHA-256.\n\nOnce v1.2.2 settles, I plan to build Shizuku directly into the app so you can run it with Developer Options turned off."
+    },
+    {
       "id": "20261126-1-2-2-will-be-ready-soon-8mk8",
       "author": "Gwen Balajediong",
       "role": "DEV",
