@@ -2,11 +2,20 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261126-freeze-method-reverted-for-u-rwrg",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 26, 2026",
+      "tag": "Notice",
+      "title": "Freeze Method Reverted for Upcoming 1.2.2 Later",
+      "body": "I tried a new freeze method to keep your home screen icons in place after unfreezing. In testing, frozen apps kept restarting in the background, which defeats the point of freezing.\n\nSo I reverted to the old method. Apps stay fully off while frozen, but their icons disappear and may move around when restored. I'd rather have frozen apps actually stay frozen."
+    },
+    {
       "id": "20261125-dpi-issue-fix-ready-cv9t",
       "author": "Gwen Balajediong",
       "role": "DEV",
       "timestamp": "Nov 25, 2026",
-      "tag": "Notice",
+      "tag": "Fix",
       "title": "DPI Issue Fix Ready",
       "body": "Good news! I've resolved the DPI and screen size issues affecting specific devices. The fix isn't live just yet, but it will be rolled out in the upcoming update. Thanks for waiting!"
     },
