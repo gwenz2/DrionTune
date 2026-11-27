@@ -2,22 +2,24 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261127-driontune-without-shizuku-an-te49",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 27, 2026",
+      "tag": "Notice",
+      "title": "DrionTune without Shizuku and Developer Options?",
+      "body": "Quick update on what I'm testing right now. DrionTune now runs without the Shizuku app and with Developer Options turned off (after initial setup).\n\nThat means you can use GCash and other banking apps while DrionTune is running, and Freeze & Restore are working. Still in testing and not releasing anytime soon, just wanted to share the progress.\n\nHuge credit to Romil Grande for pointing out that working without Developer Options is possible."
+    },
+    {
       "id": "20261126-v1-2-2-is-live-rqur",
       "author": "Gwen Balajediong",
       "role": "DEV",
       "timestamp": "Nov 26, 2026",
       "tag": "Update",
       "title": "v1.2.2 is Live",
-      "body": "DrionTune v1.2.2 is out now. It fixes DPI and screen size restore on affected phones, adds in-app DrionTune Pay (GCash, Maya, and GoTyme ₱150) receipt verification, polishes DNS/Adblock and Freeze/Restore dialogs, and verifies APK update downloads with SHA-256.\n\nOnce v1.2.2 settles, I plan to build Shizuku directly into the app so you can run it with Developer Options turned off."
-    },
-    {
-      "id": "20261126-1-2-2-will-be-ready-soon-8mk8",
-      "author": "Gwen Balajediong",
-      "role": "DEV",
-      "timestamp": "Nov 26, 2026",
-      "tag": "Notice",
-      "title": "1.2.2 Will Be Ready Soon",
-      "body": "We just finished testing the app, and I will upload it soon!"
+      "body": "DrionTune v1.2.2 is out now. It fixes DPI and screen size restore on affected phones, adds in-app DrionTune Pay (GCash, Maya, and GoTyme ₱150) receipt verification, polishes DNS/Adblock and Freeze/Restore dialogs, and verifies APK update downloads with SHA-256.\n\nOnce v1.2.2 settles, I plan to build Shizuku directly into the app so you can run it with Developer Options turned off.",
+      "linkLabel": "Download page",
+      "linkUrl": "https://gwenz2.github.io/DrionTune/"
     },
     {
       "id": "20261126-freeze-method-reverted-for-u-rwrg",
@@ -29,24 +31,6 @@
       "body": "I tried a new freeze method to keep your home screen icons in place after unfreezing. In testing, frozen apps kept restarting in the background, which defeats the point of freezing.\n\nSo I reverted to the old method. Apps stay fully off while frozen, but their icons disappear and may move around when restored. I'd rather have frozen apps actually stay frozen."
     },
     {
-      "id": "20261125-dpi-issue-fix-ready-cv9t",
-      "author": "Gwen Balajediong",
-      "role": "DEV",
-      "timestamp": "Nov 25, 2026",
-      "tag": "Fix",
-      "title": "DPI Issue Fix Ready",
-      "body": "Good news! I've resolved the DPI and screen size issues affecting specific devices. The fix isn't live just yet, but it will be rolled out in the upcoming update. Thanks for waiting!"
-    },
-    {
-      "id": "20261125-dpi-issue-vg7l",
-      "author": "Gwen Balajediong",
-      "role": "DEV",
-      "timestamp": "Nov 25, 2026",
-      "tag": "Notice",
-      "title": "DPI Issue",
-      "body": "I'm aware of DPI and screen size issues on specific devices and am currently working on a fix. Please stay tuned for updates.\n\nYou can still lower the resolution if you really need the extra performance, but I advise avoiding it if you don't have to."
-    },
-    {
       "id": "20261125-driontune-without-developer--s805",
       "author": "Gwen Balajediong",
       "role": "DEV",
@@ -54,17 +38,6 @@
       "tag": "Notice",
       "title": "DrionTune Without Developer Options",
       "body": "Someone found a new way to use DrionTune with disabled Developer Options.\nI'm testing and preparing it now so setup will be much easier. Stay tuned for the upcoming update!"
-    },
-    {
-      "id": "20261125-gcash-gotyme-pro-keys-tempor-iut4",
-      "author": "Gwen Balajediong",
-      "role": "DEV",
-      "timestamp": "Nov 25, 2026",
-      "tag": "Alert",
-      "title": "GCash / GoTyme Pro Keys Temporarily Paused",
-      "body": "Manual GCash and GoTyme Pro key issuance is temporarily paused while we upgrade our local key system.\n\nFor instant Pro activation, please use Gumroad in the Pro tab. Existing Pro keys continue to work normally. GCash support will return in the next update!",
-      "linkLabel": "Buy Instant Key (Gumroad)",
-      "linkUrl": "https://gwennydev.gumroad.com/l/driontune-pro"
     },
     {
       "id": "v1.2.1-live",
