@@ -3,13 +3,13 @@
 > No-root Android gaming & performance optimizer powered by Shizuku (Android 11–16) with an optional Windows PC Edition that requires no Shizuku.
 
 ## Official Links
-- Landing Page: https://gwenz2.github.io/DrionTune/
-- Setup Guide & Step 3 Fixes: https://gwenz2.github.io/DrionTune/guide.html
+- Landing Page: https://driontune.com/
+- Setup Guide & Step 3 Fixes: https://driontune.com/guide.html
 - GitHub Repository & Releases: https://github.com/gwenz2/DrionTune
 - Latest Android APK: https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.2.apk
 - Android Pro License ($2.99 via Gumroad or ₱150 via DrionTune Pay): https://gwennydev.gumroad.com/l/driontune-pro
 - Windows PC Edition ($2.99 one-time, portable ZIP with bundled ADB): https://gwennydev.gumroad.com/l/driontunepc
-- Support Email: balajedriondev@gmail.com
+- Support Email: official@driontune.com
 
 ## What DrionTune Does
 - **Zero Background Drain:** Runs only when opened; does not leave an accessibility service or background daemon eating CPU/battery during matches.

@@ -22,4 +22,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://gwenz2.github.io/DrionTune/sitemap.xml
+Sitemap: https://driontune.com/sitemap.xml
