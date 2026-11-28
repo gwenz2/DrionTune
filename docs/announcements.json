@@ -2,6 +2,17 @@
   "channel": "announcements",
   "announcements": [
     {
+      "id": "20261128-thank-you-pro-users-official-06ds",
+      "author": "Gwen Balajediong",
+      "role": "DEV",
+      "timestamp": "Nov 28, 2026",
+      "tag": "Notice",
+      "title": "Thank You Pro Users & Official Domain Update",
+      "body": "Huge thank you to everyone who upgraded to DrionTune Pro! Because of your support, I was finally able to secure our official domain: driontune.com.\n\nSpecial thanks to those who chose DrionTune Pay directly instead of Gumroad—since Gumroad requires a $100 minimum balance before I can cash out, paying directly helps fund updates and server costs right away.\n\nQuick heads-up: License keys from DrionTune Pay may occasionally take a little extra time to arrive since I manually verify every payment first. Thank you so much for trusting me with your ₱150 and supporting DrionTune!",
+      "linkLabel": "Visit driontune.com",
+      "linkUrl": "https://driontune.com"
+    },
+    {
       "id": "20261127-driontune-without-shizuku-an-te49",
       "author": "Gwen Balajediong",
       "role": "DEV",
