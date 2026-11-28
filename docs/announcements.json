@@ -31,24 +31,13 @@
       "body": "I tried a new freeze method to keep your home screen icons in place after unfreezing. In testing, frozen apps kept restarting in the background, which defeats the point of freezing.\n\nSo I reverted to the old method. Apps stay fully off while frozen, but their icons disappear and may move around when restored. I'd rather have frozen apps actually stay frozen."
     },
     {
-      "id": "20261125-driontune-without-developer--s805",
-      "author": "Gwen Balajediong",
-      "role": "DEV",
-      "timestamp": "Nov 25, 2026",
-      "tag": "Notice",
-      "title": "DrionTune Without Developer Options",
-      "body": "Someone found a new way to use DrionTune with disabled Developer Options.\nI'm testing and preparing it now so setup will be much easier. Stay tuned for the upcoming update!"
-    },
-    {
       "id": "v1.2.1-live",
       "author": "Gwen Balajediong",
       "role": "DEV",
       "timestamp": "Nov 24, 2026",
       "tag": "Update",
       "title": "DrionTune v1.2.1 Is Live!",
-      "body": "v1.2.1 hotfix is out:\n• Defers cold-start trial reset & \"Restore Now\" notification taps until Shizuku connects (protects stock snapshots)\n• Fixes \"Watch Ad\" button hanging if ad init fails\n• Moves QR save to background thread, disables update cache, & adds unknown-apps install prompt\n• Live 30s trial countdown + safer external link handling",
-      "linkLabel": "Download v1.2.1",
-      "linkUrl": "https://github.com/gwenz2/DrionTune/releases/latest/download/DrionTune-v1.2.1.apk"
+      "body": "v1.2.1 hotfix is out:\n• Defers cold-start trial reset & \"Restore Now\" notification taps until Shizuku connects (protects stock snapshots)\n• Fixes \"Watch Ad\" button hanging if ad init fails\n• Moves QR save to background thread, disables update cache, & adds unknown-apps install prompt\n• Live 30s trial countdown + safer external link handling"
     }
   ]
 }
